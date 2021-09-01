@@ -34,7 +34,8 @@ def index(request):
      #  since it is free subscription with limitations on request
 
     url2 = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=c77fbdf4c887f4c8840ac496686fa7c4'
-    
+
+    city = 'New York'
     if request.method  == 'POST':
             city = request.POST.get('city') # or request.Post['city']
             city = city.capitalize()
