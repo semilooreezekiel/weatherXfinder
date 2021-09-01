@@ -47,7 +47,7 @@ def index(request):
         'city' : city,
         'temperature' : p['main']['temp'],
         'description' : p['weather'][0]['description'],
-        'icon' : r['weather'][0]['icon'],
+        'icon' : p['weather'][0]['icon'],
     }     
 
     context = {'weather_data': weather_data, 'city_weather_user':city_weather_user}
