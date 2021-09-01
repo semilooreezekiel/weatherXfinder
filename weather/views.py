@@ -9,7 +9,7 @@ def index(request):
     # url for the display of the weather added by the admin 
     url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=c77fbdf4c887f4c8840ac496686fa7c4'
  
-    city = 'New York'
+    # city = 'New York'
    # for cities added by admin only
     cities = City.objects.all().order_by('?')
     # if you need to filter and limit the number [:3] , to order by id order_by('id')
