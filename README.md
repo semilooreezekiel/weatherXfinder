@@ -6,7 +6,7 @@ The app is hosted on heroku. You can use it here [WeatherX Finder](http://weathe
 ## Features
 - The admin can add cities from the backend to display some cities permanently.
 - Users can search for weather of any city.
-- 
+
 
 ## How to Use
 
